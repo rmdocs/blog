@@ -3,8 +3,7 @@
   "scripts": {
     "dev": "vuepress dev docs --temp .temp",
     "build": "vuepress build docs",
-    "deploy:source": "bash main.sh",
-    "deploy:page": "bash deploy.sh"
+    "deploy": "bash main.sh"
   },
   "license": "MIT",
   "devDependencies": {
