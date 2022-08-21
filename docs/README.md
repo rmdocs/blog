@@ -53,37 +53,72 @@ footerWrap:
 footer: MIT Licensed | Copyright © 2022-present icbugcoder.
 ---
 
-# 快速上手
+# Hello!🎉🎉
 
-## 安装主题
+## 关于本站
 
-使用 `yarn` 安装 `AntDocs` 主题：
-```bash
-yarn add vuepress-theme-antdocs
-```
-或者使用 `npm` 安装它：
-```bash
-npm i vuepress-theme-antdocs
-```
-如果你的网络环境不佳，推荐使用 [cnpm](https://github.com/cnpm/cnpm)。
+> 这里是icbugcoder搭建的文档库！本文档库包含了我学习的大部分内容，全部开源出来给大家学习！
 
-## 引用主题
+### 本站架构
 
-打开 `.vuepress/config.js` 文件，然后在合适位置引用它：
+本站使用vuepress-cli与antdocs进行搭建
 
-```js
-module.exports = {
-  theme: 'antdocs',
-  // ...
-}
-```
-如果你对 VuePress 主题配置不是很了解，请点这里：[使用主题](https://vuepress.vuejs.org/zh/theme/using-a-theme.html#%E4%B8%BB%E9%A2%98%E7%9A%84%E7%BC%A9%E5%86%99)  
+antdocs使用antdesign UI组件开发，所以本站内置antdesign的UI组件库，效果更佳！
 
-配置完毕后，你就可以直接 `yarn run docs:dev` 或 `npm run docs:dev` 查看效果。
+后期会根据情况对本主题进行二次开发，详情请见TODO事项
 
-## 效果预览
+### TODO
 
-<p align="center"><img src="https://s2.ax1x.com/2020/02/28/3B3lOf.png"/></p>
+<a-checkbox checked>antdesign组件库引入打包</a-checkbox>  
+<br/>
+<a-checkbox :default-checked="false" disabled />    elementui组件库引入打包</a-checkbox>
+<br/>
+<a-checkbox :default-checked="false" disabled />    three.js三维图像库引入打包</a-checkbox>
+<br/>
+<a-checkbox :default-checked="false" disabled />    pyscript实现Python运行【对带宽要求极高】</a-checkbox>
+<br/>
+<a-checkbox :default-checked="false" disabled />    tensorflow.js</a-checkbox>
+<br/>
+<a-checkbox :default-checked="false" disabled />    ....</a-checkbox>
+<br/>
+
+### 本站引用
+
+本站引用了Antdesign的组件功能，并未使用Antdesign Pro，Pro版本会根据后期本站UI改版决定是否使用！
+
+如果你想使用我已经编辑好的模板进行使用打包，请到页脚处-->生态系统--->本站源码仓库，进行源码克隆，使用npm/yarn/pnpm等工具进行模块安装以及编译！
+
+## 支持本作者
+
+本作者是单人组件本文档库，工作量较大！望大家多多支持！
+
+如果你想请作者喝咖啡，一起分担运营费用，可以使用下方二维码进行赞助！:coffee:
+
+> 这里是icbugcoder搭建的文档库！本文档库包含了我学习的大部分内容，全部开源出来给大家学习！
+
+### 本站架构
+
+本站使用vuepress-cli与antdocs进行搭建
+
+antdocs使用antdesign UI组件开发，所以本站内置antdesign的UI组件库，效果更佳！
+
+后期会根据情况对本主题进行二次开发，详情请见TODO事项
+
+
+### 本站引用
+
+本站引用了antdesign的组件功能，并未使用antdesign pro,pro版本会根据后期UI改版风格进行决定！
+
+如果你想使用我已经编辑好的模板进行使用打包，请到页脚处-->生态系统--->本站源码仓库，进行源码克隆，使用npm/yarn/pnpm等工具进行模块安装以及编译！
+
+## 支持本作者
+
+本作者是单人组件本文档库，工作量较大！望大家多多支持！
+
+如果你想请作者喝咖啡，一起分担运营费用，可以使用下方二维码进行赞助！:coffee:
+
+![](https://img.recode.fun/img-2022/Snipaste_2022-08-21_21-40-40cd.jpg)
+
 
 ## 贡献者
 

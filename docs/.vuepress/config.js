@@ -31,6 +31,7 @@ module.exports = {
     }
   },
   themeConfig: {
+    isDarkMode: true,
     backToTop: true,
     smoothScroll: true,
     logo: "/assets/svg/logo.svg",
