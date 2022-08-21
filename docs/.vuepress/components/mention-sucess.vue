@@ -1,17 +1,14 @@
 <template></template>
 <script>
 export default {
-  name: "Msg",
+  name: "mention-sucess",
   mounted() {
-    let readkey = localStorage.getItem('20220821');
-    if (readkey == false || readkey == null) {
-      localStorage.setItem('20220821', 'true');
       this.$notification.open({
-        message: "Recode博客更新通知",
-        description: "Hello，本站是一个新站点！欢迎大家访问！教程正在努力码字补齐中，敬请期待！",
-        icon: <a-icon type="exclamation-circle" style="color: #1890ff" />,
-        duration: 0,
-        placement: "bottomRight",
+        message: "如果你看到此消息，就表明本站静态资源已经加载成功！",
+        icon: <a-icon type="check-circle" style="color: #7fc836" />,
+        placement: "bottomLeft",
+        onClose: close,
+        duration: 3,
         // btn: h => {
         //   return h(
         //     "a-button",
@@ -27,9 +24,7 @@ export default {
         //     "查看更新"
         //   );
         // },
-        key: "20220821"
       });
-    }
   }
 };
 

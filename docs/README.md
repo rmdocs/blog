@@ -2,13 +2,13 @@
 home: true
 heroImage: /assets/svg/icon.svg
 actions:
-  - text: 快速上手
+  - text: 开始学习
     link: /guide/
     type: primary
     size: large
 
-  - text: 在线演示
-    link: https://codesandbox.io/s/antdocs-demo-5cn3dv
+  - text: 代码仓库
+    link: https://github.com/rmdocs
     type: primary
     ghost: true
     size: large
@@ -17,43 +17,40 @@ features:
   details: 从基础内容过渡到实践项目以及前端框架，实现全体系课程学习！
 - title: 🚛后端教程
   details: 含有Python,C++,Java以及Node等语言的编程教程！包括神经网络的学习课程！持续更新中...
-- title: 🚌系统学习以及技能素材
+- title: 🚌技能学习以及素材
   details: 建模，修图，剪辑，PPT以及Linux系统的命令使用教程！
 footerWrap: 
 - headline: 🌿生态系统
   items:
   - title: AntDocs
     link: https://github.com/zpfz/vuepress-theme-antdocs/
-    details: VuePress 主题
+    details: 本站 Antd-VuePress 主题
   - title: VuePress-Creator
     link: https://zpfz.github.io/vuepress-creator/
     details: VuePress CLI
-  - title: Document
-    link: https://github.com/zpfz/antdcos-document/
-    details: 文档源文件
+  - title: 本站源码仓库
+    link: https://github.com/rmdocs/full-stack-blog
+    details: 本站源代码，打包了多个UI组件及模块
 - headline: ⚓资源链接
   items:
   - title: VuePress
     link: https://vuepress.vuejs.org/zh/
-  - title: Ant Design Vue 1.x
+    details: Vuepress官方文档
+  - title: Ant Design
     link: https://1x.antdv.com/docs/vue/introduce-cn/
-- headline: 💬社区交流
-  items:
-  - title: VuePress 社区
-    link: https://shang.qq.com/wpa/qunwpa?idkey=fce20f9d7a5620dbb261b31b6bd01f726c9e24e7697fcba4ea7927d5dc971ac5
-    details: QQ交流群
-  - title: 报告 Bug
-    link: https://github.com/zpfz/vuepress-theme-antdocs/issues
-    details: Github issue
+    details: 本站Antd主题文档
+  - title: Vercel
+    link: https://vercel.com/
+    details: 托管本站平台
 - headline: ☕作者博客
   items:
   - title: 掘金
-    link: https://juejin.im/user/5d07466b51882554d6312922/
+    link: https://juejin.cn/user/1943592291286535
     details: 一个帮助开发者成长的社区
   - title: CSDN
-    link: https://blog.csdn.net/zpfz756/
+    link: https://blog.csdn.net/X2222212
     details: 专业IT技术社区
-footer: MIT Licensed | Copyright © 2020-present Feng L.H.
+footer: MIT Licensed | Copyright © 2022-present icbugcoder.
 ---
 
 # 快速上手
@@ -94,63 +91,11 @@ module.exports = {
 
 <a-tooltip placement="bottom">
   <template slot="title">
-    左撇峰子
+    icbugcoder
   </template>
-  <a-avatar src="https://avatars.githubusercontent.com/u/49757965?v=4" :size="54"/>
+  <a-avatar src="https://img.recode.fun/img-2022/微信图片_20220821202544.jpg" :size="54"/>
 </a-tooltip>
 &ensp;
-<a-tooltip placement="bottom">
-  <template slot="title">
-    Guojun Chen
-  </template>
-  <a-avatar src="https://avatars.githubusercontent.com/u/10856371?v=4" :size="54"/>
-</a-tooltip> 
-&ensp;
-<a-tooltip placement="bottom">
-  <template slot="title">
-    Baiang
-  </template>
-  <a-avatar src="https://avatars.githubusercontent.com/u/8638857?v=4" :size="54"/>
-</a-tooltip>  
-&ensp;
-<a-tooltip placement="bottom">
-  <template slot="title">
-    Yexk_M
-  </template>
-  <a-avatar src="https://avatars.githubusercontent.com/u/19749521?v=4" :size="54"/>
-</a-tooltip> 
-&ensp;
-<a-tooltip placement="bottom">
-  <template slot="title">
-    kitaharafay
-  </template>
-  <a-avatar src="https://avatars.githubusercontent.com/u/37034015?v=4" :size="54"/>
-</a-tooltip> 
-&ensp;
-<a-tooltip placement="bottom">
-  <template slot="title">
-    xkloveme
-  </template>
-  <a-avatar src="https://avatars.githubusercontent.com/u/29595042?v=4" :size="54"/>
-</a-tooltip> 
-
-
-<p>&nbsp; </p>  
-
-[我也想为贡献者之一？](https://github.com/zpfz/vuepress-theme-antdocs/pulls)
-
-<p>&nbsp; </p> 
-
-## 赞助者  
-
-<p></p>
-
-<a-tooltip placement="bottom">
-  <template slot="title">
-    Roy Kid
-  </template>
-  <a-avatar src="https://s1.ax1x.com/2020/03/17/8dnGRA.th.jpg" :size="54"/>
-</a-tooltip>
-
 
 <Msg />
+<mention-sucess />
