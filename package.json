@@ -1,0 +1,17 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "deploy:source": "bash main.sh",
+    "deploy:page": "bash deploy.sh"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-sitemap": "^2.3.1"
+  },
+  "dependencies": {
+    "vuepress-theme-antdocs": "^1.4.4"
+  }
+}
