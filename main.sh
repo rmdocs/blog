@@ -5,6 +5,7 @@ set -e
 
 npm run build
 
+
 git config --global user.email "icbugcoder@88.com"
 git config --global user.name "icbugcoder"
 git add .
